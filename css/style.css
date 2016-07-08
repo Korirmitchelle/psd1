@@ -1,10 +1,45 @@
-.section {
+* {
+    margin: 0;
+    padding: 0;
+}
+.left {
     width: 20%;
     float: left;
-    background-color: azure;
+    background-color: darkslategrey;
+    color: aliceblue;
+    height: 300px;
 }
 aside {
-    width: 20%;
+    width: 80%;
     float: right;
-    background-color: bisque;
+    background-color: white;
+    height: 50px
+}
+.search {
+    width: 50%;
+    float: left;
+    height: 25px;
+}
+.eddie {
+    text-align: right;
+    height: 25px;
+}
+header {
+    border-bottom: 1px solid grey;
+}
+.photos {
+    text-align: left;
+    height: 30px;
+    background-color: #fff;
+    color: #333;
+}
+.two nav ul li {
+    display: inline;
+    background-color: #fff;
+}
+.menu {
+    text-align: right;
+    height: 40px;
+    padding: 4px;
+    border-bottom: 1px solid grey;
 }
